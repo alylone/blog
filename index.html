@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hexo</title>
+  <title>Alylone</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Alylone">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="og:site_name" content="Alylone">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Aly">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Alylone" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="assets/head.png">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -43,7 +43,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="" class="js-avatar">
+			<img src="assets/PIC1.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/"></a></h1>
@@ -101,7 +101,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="" class="js-avatar">
+				<img src="assets/PIC1.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author"></h1>
@@ -175,249 +175,8 @@
 <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><h3 id="零散的学习碎片"><a href="#零散的学习碎片" class="headerlink" title="零散的学习碎片"></a>零散的学习碎片</h3><h4 id="1、ord函数"><a href="#1、ord函数" class="headerlink" title="1、ord函数"></a>1、ord函数</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">ord</span>(<span class="string">&quot;A&quot;</span>)     <span class="comment"># 按照对应编码讲字符A转换为编码</span></span><br><span class="line"><span class="number">65</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="2、-向小取整-向数轴左端（-∞）看齐"><a href="#2、-向小取整-向数轴左端（-∞）看齐" class="headerlink" title="2、&#x2F;&#x2F; 向小取整 向数轴左端（-∞）看齐"></a>2、&#x2F;&#x2F; 向小取整 向数轴左端（-∞）看齐</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span>//-<span class="number">2</span></span><br><span class="line">-<span class="number">2</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span>//<span class="number">2</span></span><br><span class="line"><span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="3、-（取余）"><a href="#3、-（取余）" class="headerlink" title="3、% （取余）"></a>3、% （取余）</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span>%-<span class="number">2</span></span><br><span class="line">-<span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>-<span class="number">3</span> % <span class="number">2</span></span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span> %<span class="number">2</span></span><br><span class="line"><span class="number">1</span></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span> //<span class="number">2</span>      <span class="comment"># 再理解一遍上方 （// % ）</span></span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span> %<span class="number">2</span></span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>-<span class="number">3</span> / <span class="number">2</span></span><br><span class="line">-<span class="number">1.5</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>-<span class="number">3</span> % <span class="number">2</span></span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>-<span class="number">3</span> // <span class="number">2</span></span><br><span class="line">-<span class="number">2</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="4、-、"><a href="#4、-、" class="headerlink" title="4、&#x2F; 、"></a>4、&#x2F; 、</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">3</span>/-<span class="number">2</span></span><br><span class="line">-<span class="number">1.5</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">5</span> /<span class="number">3</span></span><br><span class="line"><span class="number">1.6666666666666667</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>一些基础知识</strong></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220916231546990-16706010068381.png" alt="image-20220916231546990"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220916231628554-16706010122063.png" alt="image-20220916231628554"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220916231828468-16706010152915.png" alt="image-20220916231828468"></p>
-<h4 id="5、-（大小于）"><a href="#5、-（大小于）" class="headerlink" title="5、 &gt; &lt; （大小于）"></a>5、 &gt; &lt; （大小于）</h4><p>&lt; &gt; 可以比较列表[] 大小 或者 集合{}是否父子集关系</p>
-<p>&#x3D;&#x3D; 则可以判内部元素是否全部相等</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a =[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]          <span class="comment"># 测试数据</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b= [<span class="number">3</span>,<span class="number">2</span>,<span class="number">1</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>c = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>e = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>aset = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>bset = &#123;<span class="number">3</span>,<span class="number">2</span>,<span class="number">1</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>cset = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a == b    <span class="comment">#list（列表）是一个一个比并且一一对应比较  </span></span><br><span class="line"><span class="literal">False</span>         <span class="comment">#set（集合）不能比较大小 可以查看是否子集或者内部元素完全相同</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>aset == bset</span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a ==e</span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a &lt;c</span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a &lt;d</span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>aset &lt; cset</span><br><span class="line"><span class="literal">False</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220916233709281-16706010192387.png" alt="image-20220916233709281"></p>
-<h4 id="6、列表list-元组tuple-字典dict-集合set"><a href="#6、列表list-元组tuple-字典dict-集合set" class="headerlink" title="6、列表list 元组tuple 字典dict 集合set"></a>6、列表list 元组tuple 字典dict 集合set</h4><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220916233541266-16706010237789.png" alt="image-20220916233541266"></p>
-<h4 id="7、-print"><a href="#7、-print" class="headerlink" title="7、 print"></a>7、 print</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="number">12</span>, <span class="number">21</span>, sep=<span class="string">&#x27;*&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(a)</span><br><span class="line"><span class="comment"># </span></span><br><span class="line"><span class="built_in">print</span>(<span class="number">12</span>, <span class="number">21</span>, sep=<span class="string">&#x27;*&#x27;</span>, end=<span class="string">&#x27;888&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span>(a)</span><br><span class="line"><span class="comment">#</span></span><br></pre></td></tr></table></figure>
-
-<h4 id="8、sorted"><a href="#8、sorted" class="headerlink" title="8、sorted"></a>8、sorted</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># sorted()   参数key为排序准则 （一般等于一个函数） | reversed参数：升序（false）降序 （true）</span></span><br><span class="line"><span class="comment"># 用key（内部元素）的值来进行排序</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x = <span class="built_in">list</span>(<span class="built_in">range</span>(<span class="number">8</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x</span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(x)</span><br><span class="line"><span class="number">2451027906304</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">from</span> random <span class="keyword">import</span> shuffle</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>shuffle(x)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x</span><br><span class="line">[<span class="number">3</span>, <span class="number">2</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">5</span>, <span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">id</span>(x)</span><br><span class="line"><span class="number">2451027906304</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">sorted</span>(x)</span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x</span><br><span class="line">[<span class="number">3</span>, <span class="number">2</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">5</span>, <span class="number">4</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#  reversed()</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">reversed</span>(x)</span><br><span class="line">&lt;list_reverseiterator <span class="built_in">object</span> at <span class="number">0x0000023AAC8371C0</span>&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">list</span>(_) <span class="comment"># _为上一次运行的结果</span></span><br><span class="line">[<span class="number">4</span>, <span class="number">5</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">7</span>, <span class="number">6</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>x</span><br><span class="line">[<span class="number">3</span>, <span class="number">2</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">5</span>, <span class="number">4</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment"># 两个方法对x的值都没有改变</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h4 id="8、lambda"><a href="#8、lambda" class="headerlink" title="8、lambda"></a>8、lambda</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">f = <span class="keyword">lambda</span> x:y</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220929204012877-167060102860311.png" alt="image-20220929204012877"></p>
-<h4 id="9、map"><a href="#9、map" class="headerlink" title="9、map"></a>9、map</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#    map(函数,可迭代对象)  【返回一个对象】</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930075926720-167060103807613.png" alt="image-20220930075926720"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930080127233-167060104140415.png" alt="image-20220930080127233"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930081219222-167060104483817.png" alt="image-20220930081219222"></p>
-<p><strong>reduce（）</strong></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930081456056-167060104801019.png" alt="image-20220930081456056"></p>
-<p><strong>filyer()</strong></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930081849466-167060105120221.png" alt="image-20220930081849466"></p>
-<h4 id="10、枚举"><a href="#10、枚举" class="headerlink" title="10、枚举"></a>10、枚举</h4><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930075455629-167060105418123.png" alt="image-20220930075455629"></p>
-<h4 id="11、range"><a href="#11、range" class="headerlink" title="11、range()"></a>11、range()</h4><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930082215919-167060105728325.png" alt="image-20220930082215919"></p>
-<h4 id="12、zip（）"><a href="#12、zip（）" class="headerlink" title="12、zip（）"></a>12、zip（）</h4><p>要求每一项都为可迭代对象</p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930082254530-167060106031927.png" alt="image-20220930082254530"></p>
-<h4 id="13、eval（）"><a href="#13、eval（）" class="headerlink" title="13、eval（）"></a>13、eval（）</h4><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20220930082449683-167060106348929.png" alt="image-20220930082449683"></p>
-<h4 id="14、列表"><a href="#14、列表" class="headerlink" title="14、列表"></a>14、列表</h4><h5 id="1、-列表介绍"><a href="#1、-列表介绍" class="headerlink" title="1、 列表介绍"></a>1、 列表介绍</h5><ol>
-<li><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006154741468-167060107431531.png" alt="image-20221006154741468"></li>
-</ol>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006154812697.png" alt="image-20221006154812697"></p>
-<h5 id="2、查找访问"><a href="#2、查找访问" class="headerlink" title="2、查找访问"></a>2、查找访问</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006155002430.png" alt="image-20221006155002430"></p>
-<h5 id="3、列表常用方法"><a href="#3、列表常用方法" class="headerlink" title="3、列表常用方法"></a>3、列表常用方法</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006155831822.png" alt="image-20221006155831822"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006155852235.png" alt="image-20221006155852235"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006155914270.png" alt="image-20221006155914270"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006155929523.png" alt="image-20221006155929523"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006155948134.png" alt="image-20221006155948134"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160004773.png" alt="image-20221006160004773"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160027373.png" alt="image-20221006160027373"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160047278.png" alt="image-20221006160047278"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160120870.png" alt="image-20221006160120870"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160156322.png" alt="image-20221006160156322"></p>
-<h5 id="4、列表推导式"><a href="#4、列表推导式" class="headerlink" title="4、列表推导式"></a>4、列表推导式</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160514359.png" alt="image-20221006160514359"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160533121.png" alt="image-20221006160533121"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160547812.png" alt="image-20221006160547812"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160607428.png" alt="image-20221006160607428"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160627606.png" alt="image-20221006160627606"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160714702.png" alt="image-20221006160714702"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160729899.png" alt="image-20221006160729899"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221006160740798.png" alt="image-20221006160740798"></p>
-<h4 id="15、切片"><a href="#15、切片" class="headerlink" title="15、切片"></a>15、切片</h4><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027154305894.png" alt="image-20221027154305894"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># step 为负数时  start需要在stop右（：：-1除外）</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027154437928.png" alt="image-20221027154437928"></p>
-<p><strong>例子</strong></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027154510916.png" alt="image-20221027154510916"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027155744385.png" alt="image-20221027155744385"></p>
-<p>使用切片增删改</p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027155857391.png" alt="image-20221027155857391"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027155908167.png" alt="image-20221027155908167"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027155926897.png" alt="image-20221027155926897"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027155945158.png" alt="image-20221027155945158"></p>
-<h4 id="16、元组"><a href="#16、元组" class="headerlink" title="16、元组"></a>16、元组</h4><h5 id="1、元组介绍"><a href="#1、元组介绍" class="headerlink" title="1、元组介绍"></a>1、元组介绍</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160024847.png" alt="image-20221027160024847"></p>
-<p><strong>简单例子</strong></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160041369.png" alt="image-20221027160041369"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160104532.png" alt="image-20221027160104532"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160128561.png" alt="image-20221027160128561"></p>
-<h5 id="2、生成器推导式"><a href="#2、生成器推导式" class="headerlink" title="2、生成器推导式"></a>2、生成器推导式</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160158024.png" alt="image-20221027160158024"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160207682.png" alt="image-20221027160207682"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># expression代入到对象中  expr1为参数</span></span><br><span class="line"><span class="comment"># expression中可有 expr 也可以没有</span></span><br><span class="line"><span class="comment"># condtion为是否生成条件</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160414407.png" alt="image-20221027160414407"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160421874.png" alt="image-20221027160421874"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 由生成器推导式得到的开迭代对象中的元素 一旦被调用一次 就会湮灭</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160550688.png" alt="image-20221027160550688"></p>
-<h4 id="17、字典"><a href="#17、字典" class="headerlink" title="17、字典"></a>17、字典</h4><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160613899.png" alt="image-20221027160613899"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">dict</span>()</span><br><span class="line">&#123; ; , ; &#125;</span><br></pre></td></tr></table></figure>
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160654524.png" alt="image-20221027160654524"></p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 字典访问</span></span><br><span class="line"></span><br><span class="line">adict.get(<span class="string">&#x27;键&#x27;</span>)</span><br><span class="line">adict[键]</span><br></pre></td></tr></table></figure>
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160742344.png" alt="image-20221027160742344"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221027160851175.png" alt="image-20221027160851175"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># pop() popitem() update() </span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h5 id="1、字典操作"><a href="#1、字典操作" class="headerlink" title="1、字典操作"></a>1、字典操作</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031155523889.png" alt="image-20221031155523889"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031155633282.png" alt="image-20221031155633282"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031155652990.png" alt="image-20221031155652990"></p>
-<h5 id="2、字典推导式"><a href="#2、字典推导式" class="headerlink" title="2、字典推导式"></a>2、字典推导式</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031155817761.png" alt="image-20221031155817761"></p>
-<h4 id="18、集合"><a href="#18、集合" class="headerlink" title="18、集合"></a>18、集合</h4><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031155853272.png" alt="image-20221031155853272"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># remove() update() dsicard()</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="1、集合操作"><a href="#1、集合操作" class="headerlink" title="1、集合操作"></a>1、集合操作</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031155913305.png" alt="image-20221031155913305"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031155927328.png" alt="image-20221031155927328"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031155937316.png" alt="image-20221031155937316"></p>
-<h5 id="2、集合运算"><a href="#2、集合运算" class="headerlink" title="2、集合运算"></a>2、集合运算</h5><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031160040104.png" alt="image-20221031160040104"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20221031160054110.png" alt="image-20221031160054110"></p>
-<h4 id="19、字符串"><a href="#19、字符串" class="headerlink" title="19、字符串"></a>19、字符串</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 有关字符串的操作  split  strip  replace maketrans  translate  以及一些可迭代对象的通用操作</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># string.strip() 去头去尾 得到的还是string</span></span><br><span class="line"><span class="comment"># string.split()  去掉并间隔 得到list</span></span><br></pre></td></tr></table></figure>
-
-<p>字符串常用操作：</p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613182821514.png" alt="image-20230613182821514"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613182847373.png" alt="image-20230613182847373"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613182900091.png" alt="image-20230613182900091"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613182913650.png" alt="image-20230613182913650"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613182946077.png" alt="image-20230613182946077"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613183005979.png" alt="image-20230613183005979"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613183052870.png"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613185620006.png" alt="image-20230613185620006"></p>
-<h4 id="20、格式化输出"><a href="#20、格式化输出" class="headerlink" title="20、格式化输出"></a>20、格式化输出</h4><blockquote>
-<p>格式化输出</p>
-</blockquote>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613183329049.png" alt="image-20230613183329049"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613183339714.png" alt="image-20230613183339714"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613183357396.png" alt="image-20230613183357396"></p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt;<span class="string">&quot;&#123;&#125; &#123;&#125;&quot;</span>.<span class="built_in">format</span>(<span class="string">&quot;hello&quot;</span>, <span class="string">&quot;world&quot;</span>)    <span class="comment"># 不设置指定位置，按默认顺序</span></span><br><span class="line"><span class="string">&#x27;hello world&#x27;</span></span><br><span class="line"> </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">&quot;&#123;0&#125; &#123;1&#125;&quot;</span>.<span class="built_in">format</span>(<span class="string">&quot;hello&quot;</span>, <span class="string">&quot;world&quot;</span>)  <span class="comment"># 设置指定位置</span></span><br><span class="line"><span class="string">&#x27;hello world&#x27;</span></span><br><span class="line"> </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">&quot;&#123;1&#125; &#123;0&#125; &#123;1&#125;&quot;</span>.<span class="built_in">format</span>(<span class="string">&quot;hello&quot;</span>, <span class="string">&quot;world&quot;</span>)  <span class="comment"># 设置指定位置</span></span><br><span class="line"><span class="string">&#x27;world hello world&#x27;</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613183903946.png" alt="image-20230613183903946"></p>
-<h4 id="21、"><a href="#21、" class="headerlink" title="21、+-"></a>21、+-</h4><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">列表[]+：   须同类 []+[]   但是  +=调用extend（）所以右边是单个数据也可以</span><br><span class="line">字符串  可 字符串+单个字符</span><br><span class="line">元组  不同类不可加</span><br><span class="line">集合&#123;&#125;：须同类</span><br><span class="line"></span><br><span class="line">-法</span><br><span class="line">字符串，列表，元组不可减</span><br><span class="line">集合同类型可减</span><br></pre></td></tr></table></figure>
-
-<h4 id="22、-星号表达式-starred-expression"><a href="#22、-星号表达式-starred-expression" class="headerlink" title="22、*  星号表达式(starred expression)"></a>22、*  星号表达式(starred expression)</h4><h5 id="1、用于参数传递"><a href="#1、用于参数传递" class="headerlink" title="1、用于参数传递"></a>1、用于参数传递</h5><p>出现在函数中，*<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=args&spm=1001.2101.3001.7020">args</a>用于将传入的可迭代参数解析出来，并存入到args中</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">f</span>(<span class="params">*args, **kwargs</span>):</span><br><span class="line">    <span class="built_in">print</span>(args)</span><br><span class="line">    <span class="built_in">print</span>(kwargs)</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>*</code>会将传入的参数放入名为args的元组中</li>
-<li><code>**</code> 会将传入的参数放入名为kwargs的字典中</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">def</span> <span class="title function_">f</span>(<span class="params">a, b, c</span>):</span><br><span class="line"><span class="meta">... </span>  <span class="built_in">print</span> a, b, c</span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line"><span class="number">1</span> <span class="number">2</span> <span class="number">3</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f(*[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>])</span><br><span class="line">a b c</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>f(<span class="number">3</span>, *[<span class="number">1</span>, <span class="number">2</span>])</span><br><span class="line"><span class="number">3</span> <span class="number">1</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, *b, c = <span class="built_in">range</span>(<span class="number">5</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">0</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>c</span><br><span class="line"><span class="number">4</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
-
-<h5 id="2、用于unpacking可迭代的变量"><a href="#2、用于unpacking可迭代的变量" class="headerlink" title="2、用于unpacking可迭代的变量"></a>2、用于unpacking可迭代的变量</h5><p>将序列中的部分内容打包至一个列表中</p>
-<ul>
-<li>example 1</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">python3</span><br><span class="line">Python <span class="number">3.6</span><span class="number">.1</span> (v3<span class="number">.6</span><span class="number">.1</span>:69c0db5050, Mar <span class="number">21</span> <span class="number">2017</span>, 01:<span class="number">21</span>:04)</span><br><span class="line">[GCC <span class="number">4.2</span><span class="number">.1</span> (Apple Inc. build <span class="number">5666</span>) (dot <span class="number">3</span>)] on darwin</span><br><span class="line"><span class="type">Type</span> <span class="string">&quot;help&quot;</span>, <span class="string">&quot;copyright&quot;</span>, <span class="string">&quot;credits&quot;</span> <span class="keyword">or</span> <span class="string">&quot;license&quot;</span> <span class="keyword">for</span> more information.</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, *b, c = <span class="built_in">range</span>(<span class="number">10</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">0</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>c</span><br><span class="line"><span class="number">9</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>example 2</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>record = (<span class="string">&#x27;alice&#x27;</span>, <span class="number">50</span>, <span class="number">1322</span>,<span class="number">45</span>, (<span class="number">12</span>, <span class="number">18</span>, <span class="number">2018</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>name, *_1, (*_2, year) = record</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>name</span><br><span class="line"><span class="string">&#x27;alice&#x27;</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>_1</span><br><span class="line">[<span class="number">50</span>, <span class="number">1322</span>, <span class="number">45</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>_2</span><br><span class="line">[<span class="number">12</span>, <span class="number">18</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>year</span><br><span class="line"><span class="number">2018</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>example 3</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">for</span> a, *b <span class="keyword">in</span> [(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>), (<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;hehe&#x27;</span>)]:</span><br><span class="line"><span class="meta">... </span>    <span class="built_in">print</span>(b, <span class="built_in">type</span>(b))</span><br><span class="line">...</span><br><span class="line">[<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>] &lt;<span class="keyword">class</span> <span class="string">&#x27;list&#x27;</span>&gt;</span><br><span class="line">[<span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;hehe&#x27;</span>] &lt;<span class="keyword">class</span> <span class="string">&#x27;list&#x27;</span>&gt;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>递归求和</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">def</span> <span class="title function_">sum</span>(<span class="params">items</span>):</span><br><span class="line"><span class="meta">... </span>  head, *tail = items</span><br><span class="line"><span class="meta">... </span>  <span class="keyword">return</span> head + <span class="built_in">sum</span>(tail) <span class="keyword">if</span> tail <span class="keyword">else</span> head</span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="built_in">sum</span>([<span class="number">1</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">7</span>, <span class="number">9</span>])</span><br><span class="line"><span class="number">25</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>注意</strong>：星号表达式(*expressoin)不可单独使用</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 以下实验结果在python3.x中</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>*a = <span class="built_in">range</span>(<span class="number">5</span>)</span><br><span class="line">  File <span class="string">&quot;&lt;stdin&gt;&quot;</span>, line <span class="number">1</span></span><br><span class="line">SyntaxError: starred assignment target must be <span class="keyword">in</span> a <span class="built_in">list</span> <span class="keyword">or</span> <span class="built_in">tuple</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>*a, = <span class="built_in">range</span>(<span class="number">5</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line">[<span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a = *<span class="built_in">range</span>(<span class="number">5</span>)</span><br><span class="line">  File <span class="string">&quot;&lt;stdin&gt;&quot;</span>, line <span class="number">1</span></span><br><span class="line">SyntaxError: can<span class="string">&#x27;t use starred expression here</span></span><br><span class="line"><span class="string">&gt;&gt;&gt; a = *range(5),</span></span><br><span class="line"><span class="string">&gt;&gt;&gt; a = , *range(5)</span></span><br><span class="line"><span class="string">  File &quot;&lt;stdin&gt;&quot;, line 1</span></span><br><span class="line"><span class="string">    a = , *range(5)</span></span><br><span class="line"><span class="string">        ^</span></span><br><span class="line"><span class="string">SyntaxError: invalid syntax</span></span><br></pre></td></tr></table></figure>
-
-<p>当为参数传送操作时  或者多个一起赋值，可直接使用  </p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">zip</span>(*([<span class="number">1</span>,<span class="number">2</span>],[<span class="number">2</span>,<span class="number">3</span>],[<span class="number">3</span>,<span class="number">4</span>],[<span class="number">5</span>,<span class="number">6</span>]))</span><br><span class="line">&lt;<span class="built_in">zip</span> <span class="built_in">object</span> at <span class="number">0x00000230F0435F80</span>&gt;</span><br><span class="line"></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, *b, c = <span class="built_in">range</span>(<span class="number">5</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">0</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>c</span><br><span class="line"><span class="number">4</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
-
-<h5 id="3、语法参考"><a href="#3、语法参考" class="headerlink" title="3、语法参考"></a>3、语法参考</h5><ul>
-<li><a target="_blank" rel="noopener" href="https://www.python.org/dev/peps/pep-3132/">pep-3132</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.python.org/dev/peps/pep-0448/">pep-0448</a></li>
-</ul>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230616134758752.png" alt="image-20230616134758752"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230616134906819.png"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230616135327777.png" alt="image-20230616135327777"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230616135350820.png" alt="image-20230616135350820"></p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230616135708167.png" alt="image-20230616135708167"></p>
-<h4 id="23、python-中-的作用"><a href="#23、python-中-的作用" class="headerlink" title="23、python 中  .  的作用"></a>23、python 中  .  的作用</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">a.b()</span><br><span class="line"><span class="comment">#有访问 类或者对象中的方法  或者对象中的属性等等 访问内部成员的作用得到的输出具有 什么属性 什么方法 然后访问这个属性或者方法</span></span><br><span class="line"><span class="comment"># 例如类a中有有b方法(属性)  a.b</span></span><br><span class="line"><span class="comment">#例如得到的list类型的变量，list类型具有其中具有sort()方法  [1,2,3].sort()</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#调用模块中的 方法 函数 类等等</span></span><br><span class="line">python 模块</span><br><span class="line"></span><br><span class="line">模块，在Python可理解为对应于一个文件。</span><br><span class="line"></span><br><span class="line">根据上面代码，你想使用 <span class="keyword">import</span> Parent 导入Parent 类，但 <span class="keyword">import</span> Parent 只能导入模块，所以错误</span><br></pre></td></tr></table></figure>
-
-<h4 id="24、python中的装饰器"><a href="#24、python中的装饰器" class="headerlink" title="24、python中的装饰器  @"></a>24、python中的装饰器  @</h4><blockquote>
-<p>@在python中 表示numpy中的矩阵乘法 或者 装饰器的作用</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#装饰器 (doctorator)</span></span><br><span class="line"><span class="comment"># 把大家都用的雷同的代码，来装饰新建的函数</span></span><br><span class="line"><span class="comment"># 装饰器，装饰新函数 已有的装饰品，去装饰新的</span></span><br><span class="line"><span class="comment"># 这个装饰品就是，会多次使用的代码</span></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>装饰器的应用</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#可以建立多个装饰器，在想开发新功能的时候，使用对应的装饰器即可，这样可以省去很多 重复代码</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#定义一个能打印日志的doctorator:</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">log</span>(<span class="params">func</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">wrapper</span>(<span class="params">*args, **kw</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;call %s():&#x27;</span> % func.__name__)</span><br><span class="line">        <span class="keyword">return</span> func(*args, **kw)</span><br><span class="line">    <span class="keyword">return</span> wrapper</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">@log</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">now</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;2021-3-25&#x27;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    now()</span><br></pre></td></tr></table></figure>
-
-<p>这里的log() 就是被用来做装饰器的函数</p>
-<p>这样就省去了在每个新函数里面，都写一边日志功能的代码，可以使代码简洁清晰，抽离出一些雷同的代码组件多个特定的装饰器，这样我们就可以针对不同的需求去使用特定的装饰器，这时，因为源码去除了大量泛化的内容而使得源码具有更加清晰的逻辑。</p>
-<h4 id="25、类中的super"><a href="#25、类中的super" class="headerlink" title="25、类中的super()"></a>25、类中的super()</h4><blockquote>
-<p>用于解决多重继承的问题</p>
-</blockquote>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">super</span>() 函数是用于调用父类(超类)的一个方法。</span><br><span class="line"></span><br><span class="line"><span class="built_in">super</span>() 是用来解决多重继承问题的，直接用类名调用父类方法在使用单继承的时候没问题，但是如果使用多继承，会涉及到查找顺序（MRO）、重复调用（钻石继承）等种种问题。</span><br><span class="line"></span><br><span class="line">MRO 就是类的方法解析顺序表, 其实也就是继承父类方法时的顺序表。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">super</span>(<span class="built_in">type</span>[, <span class="built_in">object</span>-<span class="keyword">or</span>-<span class="built_in">type</span>])</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">A</span>:</span><br><span class="line">     <span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">self, x</span>):</span><br><span class="line">         y = x+<span class="number">1</span></span><br><span class="line">         <span class="built_in">print</span>(y)</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span>(<span class="title class_ inherited__">A</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">add</span>(<span class="params">self, x</span>):</span><br><span class="line">        <span class="built_in">super</span>().add(x)</span><br><span class="line">b = B()</span><br><span class="line">b.add(<span class="number">2</span>)  <span class="comment"># 3</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Python3.x 和 Python2.x 的一个区别是: Python 3 可以使用直接使用 super().xxx 代替 super(Class, self).xxx :</span></span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<h3 id="python中特殊名词含义"><a href="#python中特殊名词含义" class="headerlink" title="python中特殊名词含义"></a>python中特殊名词含义</h3><h4 id="1、sep"><a href="#1、sep" class="headerlink" title="1、sep"></a>1、sep</h4><p><img src="/python%E5%AD%A6%E4%B9%A0/image-20230613191739438.png" alt="image-20230613191739438"></p>
-<h4 id="2、args"><a href="#2、args" class="headerlink" title="2、args"></a>2、args</h4><p>args为<strong>arguments的缩写，表示多个参数</strong></p>
-<h2 id="报错记录"><a href="#报错记录" class="headerlink" title="报错记录"></a>报错记录</h2><blockquote>
-<p> <strong>空白处问题</strong></p>
-</blockquote>
-<p>空格问题，在部分编辑器中，如paddle notebook 没有粘贴后格式化代码</p>
-<p>其中的空白可能不是空格</p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20231221133559576.png" alt="image-20231221133559576"></p>
-<p>可能是一种制表符，并且是可选的</p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20231221133632876.png" alt="image-20231221133632876"></p>
-<p>正常的空格不会有这样的特性</p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20231221133655462.png" alt="image-20231221133655462"></p>
-<p>总之在复制粘贴时，尤其是在不是在代码块中的标准文本(比如微信的，word，PowerPoint等等中)，并且在没有格式化代码的编辑器，注意空白处</p>
-<blockquote>
-<p> <strong>编码问题:</strong></p>
-</blockquote>
-<p><strong>Python 3默认读取格式为‘utf-8’</strong></p>
-<p>如果是其他类型的编码，如gbk需要将其修改</p>
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20231222111102863.png" alt="image-20231222111102863"></p>
-<h1 id="Python-爬虫"><a href="#Python-爬虫" class="headerlink" title="Python 爬虫"></a>Python 爬虫</h1><blockquote>
-<p><strong>爬虫</strong>：一段自动抓取互联网信息的程序，从互联网上抓取对于我们有价值的信息</p>
-</blockquote>
-<p>Python 爬虫架构主要由五个部分组成，分别是调度器、URL管理器、网页下载器、网页解析器、应用程序（爬取的有价值数据）。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">调度器：相当于一台电脑的CPU，主要负责调度URL管理器、下载器、解析器之间的协调工作。</span><br><span class="line"></span><br><span class="line">URL管理器：包括待爬取的URL地址和已爬取的URL地址，防止重复抓取URL和循环抓取URL，实现URL管理器主要用三种方式，通过内存、数据库、缓存数据库来实现。</span><br><span class="line"></span><br><span class="line">网页下载器：通过传入一个URL地址来下载网页，将网页转换成一个字符串，网页下载器有urllib2（Python官方基础模块）包括需要登录、代理、和cookie，requests(第三方包)</span><br><span class="line"></span><br><span class="line">网页解析器：将一个网页字符串进行解析，可以按照我们的要求来提取出我们有用的信息，也可以根据DOM树的解析方式来解析。网页解析器有正则表达式（直观，将网页转成字符串通过模糊匹配的方式来提取有价值的信息，当文档比较复杂的时候，该方法提取数据的时候就会非常的困难）、html.parser（Python自带的）、beautifulsoup（第三方插件，可以使用Python自带的html.parser进行解析，也可以使用lxml进行解析，相对于其他几种来说要强大一些）、lxml（第三方插件，可以解析 xml 和 HTML），html.parser 和 beautifulsoup 以及 lxml 都是以 DOM 树的方式进行解析的。</span><br><span class="line"></span><br><span class="line">应用程序：就是从网页中提取的有用数据组成的一个应用。</span><br></pre></td></tr></table></figure>
-
-<p><img src="/python%E5%AD%A6%E4%B9%A0/image-20231222185306669.png" alt="image-20231222185306669"></p>
-
+        <p>Python Doc</p>
+        
       
 
       
@@ -482,128 +241,8 @@
 <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="学习typora"><a href="#学习typora" class="headerlink" title="学习typora"></a>学习typora</h1><h2 id="1、代码块："><a href="#1、代码块：" class="headerlink" title="1、代码块："></a>1、代码块：</h2><p>​    <strong>C语言的代码块：</strong></p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;day day study || day day up/n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//代码块语法:</span></span><br><span class="line"><span class="comment">//```+语言</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>​    <strong>脚本语言代码块</strong></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">#</span><span class="language-bash">java-jar blog start</span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">linux下启动string项目的命令</span></span><br></pre></td></tr></table></figure>
-
-
-
-<p>有代码块底色的文字，保持排版或高亮的作用</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`<span class="number">1</span>`   <span class="comment">#使用和代码块一样的符号 `</span></span><br></pre></td></tr></table></figure>
-
-<p><strong>实现：</strong> <code>1</code></p>
-<h2 id="2、详细的语法学习："><a href="#2、详细的语法学习：" class="headerlink" title="2、详细的语法学习："></a>2、详细的语法学习：</h2><h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">标题的级别于#的数量一致</span><br><span class="line"># <span class="number">1</span></span><br><span class="line">## <span class="number">2</span></span><br><span class="line">### <span class="number">3</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="2-字体的调整"><a href="#2-字体的调整" class="headerlink" title="2.字体的调整"></a>2.字体的调整</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">  <span class="comment">/**加粗字体**</span></span><br><span class="line"><span class="comment">//代码高亮</span></span><br><span class="line"><span class="comment">  /==要高亮的字==</span></span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line"><span class="comment">  /~~要删除的字~~</span></span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line"><span class="comment">  /*需斜体字*</span></span><br><span class="line"><span class="comment">    以下为实现效果</span></span><br></pre></td></tr></table></figure>
-
-
-<p>  &#x2F;<strong>加粗字体</strong></p>
-<p>  &#x2F; &#x3D;&#x3D;要高亮的字&#x3D;&#x3D;</p>
-<p>  &#x2F;<del>要删除的字</del></p>
-<p>  &#x2F;<em>需斜体字</em></p>
-<h3 id="3-引用"><a href="#3-引用" class="headerlink" title="3.引用"></a>3.引用</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line"><span class="comment">//作者：ALY</span></span><br><span class="line">&gt;<span class="number">1</span>   </span><br><span class="line">&gt;&gt;<span class="number">2</span>   </span><br><span class="line">&gt;&gt;&gt;<span class="number">3</span></span><br><span class="line">    以下为实现</span><br></pre></td></tr></table></figure>
-
-<p>&#x2F;&#x2F;作者：ALY</p>
-<blockquote>
-<p>1   </p>
-<blockquote>
-<p>2   </p>
-<blockquote>
-<p>3</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h3 id="4-分割线"><a href="#4-分割线" class="headerlink" title="4.分割线"></a>4.分割线</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//分割线</span></span><br><span class="line">---</span><br><span class="line"><span class="comment">//分割线 （占全）</span></span><br><span class="line">***</span><br><span class="line">    以下为实现</span><br></pre></td></tr></table></figure>
-
-<p>&#x2F;&#x2F;分割线 </p>
-<hr>
-<p>&#x2F;&#x2F;分割线 （占全）</p>
-<hr>
-<h3 id="5-图片插入"><a href="#5-图片插入" class="headerlink" title="5.图片插入"></a>5.图片插入</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在线图片&amp;本地图片</span></span><br><span class="line">![图片名字](图片地址/网址)</span><br><span class="line"><span class="comment">//![熊](https://c-ssl.dtstatic.com/uploads/blog/202203/14/20220314144722_d8922.thumb.300_0.jpeg_webp)</span></span><br><span class="line">    以下为实现</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://c-ssl.dtstatic.com/uploads/blog/202203/14/20220314144722_d8922.thumb.300_0.jpeg_webp" alt="图片"></p>
-<h3 id="6-超链接"><a href="#6-超链接" class="headerlink" title="6.超链接"></a>6.超链接</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//超链接</span></span><br><span class="line">[超链接名称](网址)</span><br><span class="line">[我的Github仓库](https:<span class="comment">//github.com/alylone)</span></span><br></pre></td></tr></table></figure>
-
-<p><a target="_blank" rel="noopener" href="https://github.com/alylone">我的Github仓库</a></p>
-<h3 id="7-列表"><a href="#7-列表" class="headerlink" title="7.列表"></a>7.列表</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//列表</span></span><br><span class="line">  /<span class="number">1.</span>无序列表</span><br><span class="line">  - tap1</span><br><span class="line">  - tap2</span><br><span class="line">  - tap3</span><br><span class="line">  - tap4</span><br><span class="line">  - tap5</span><br><span class="line">  /<span class="number">2.</span>有序列表</span><br><span class="line"> <span class="number">1.</span> tap1</span><br><span class="line"> 然后直接使用回车就可延续列表</span><br><span class="line"> 打断列表许鼠标手动另起一行</span><br><span class="line">      </span><br><span class="line">      </span><br><span class="line">      在列表下直接使用回车可以自动生成列表</span><br><span class="line">   以下为实现</span><br></pre></td></tr></table></figure>
-
-<p>&#x2F;1.无序列表</p>
-<ul>
-<li>tap1</li>
-<li>tap2</li>
-<li>tap3</li>
-<li>tap4</li>
-<li>tap5</li>
-</ul>
-<p> &#x2F;2.有序列表</p>
-<ol>
-<li>tap1   </li>
-<li></li>
-<li></li>
-</ol>
-<h3 id="8-表格"><a href="#8-表格" class="headerlink" title="8.表格"></a>8.表格</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">鼠标右键 &gt; 插入 &gt; 表格</span><br><span class="line"><span class="comment">//源码写法不推荐 很麻烦</span></span><br></pre></td></tr></table></figure>
-
-<table>
-<thead>
-<tr>
-<th align="center">1</th>
-<th align="center">5</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">2</td>
-<td align="center">6</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td align="center">7</td>
-</tr>
-</tbody></table>
-<p>按住 crtl + &#x2F; 可显示源码</p>
-<p>注：以上不只是代码可以实现，快捷键也可</p>
-<h2 id="3、添加导航边栏"><a href="#3、添加导航边栏" class="headerlink" title="3、添加导航边栏"></a>3、添加导航边栏</h2><h3 id="1、生成普通跳转块"><a href="#1、生成普通跳转块" class="headerlink" title="1、生成普通跳转块"></a>1、生成普通跳转块</h3><p>打开预览</p>
-<p>光标移至第一行</p>
-<p>CTRL + shift +p 进入命令</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">create toc <span class="comment">#输入代码</span></span><br><span class="line"><span class="comment">#接下来下面会有提示</span></span><br><span class="line">完整：</span><br><span class="line">Markdown Preview Enhanced: Create Toc</span><br></pre></td></tr></table></figure>
-
-<p>会自动生成代码</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- @<span class="keyword">import</span> <span class="string">&quot;[TOC]&quot;</span> &#123;cmd=<span class="string">&quot;toc&quot;</span> depthFrom=<span class="number">1</span> depthTo=<span class="number">6</span> orderedList=false&#125; --&gt;</span><br></pre></td></tr></table></figure>
-
-<p>最后 CTRL + s 保存 右边预览会生成跳转栏</p>
-<h3 id="2、生成侧边栏"><a href="#2、生成侧边栏" class="headerlink" title="2、生成侧边栏"></a>2、生成侧边栏</h3><p>将光标移至第一行 添加：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">html:</span><br><span class="line">  	toc: true</span><br><span class="line">print_background: true  #有关主题设置</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p>最后 CTRL + s 保存 右边预览会生成侧边栏</p>
-<p><strong>如果看不到侧边栏效果</strong></p>
-<p>​	在MPE模式下的预览 右键open in browse 在浏览器预览</p>
-<p><strong>注意 Attention</strong></p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">如只生成侧边栏 只写如下代码 如何保存即可</span><br><span class="line">---</span><br><span class="line"><span class="attr">html</span>:</span><br><span class="line">  	<span class="attr">toc</span>: <span class="literal">true</span></span><br><span class="line"><span class="attr">print_background</span>: <span class="literal">true</span>  #有关主题设置</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-<hr>
-<p><strong>归档：</strong></p>
-<p>打开预览</p>
-<p>光标移至第一行</p>
-<p>CTRL + shift +p 进入命令</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">create toc <span class="comment">#输入代码</span></span><br><span class="line"><span class="comment">#接下来下面会有提示</span></span><br><span class="line">完整：</span><br><span class="line">Markdown Preview Enhanced: Create Toc</span><br></pre></td></tr></table></figure>
-
-<p>会自动生成代码</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- @<span class="keyword">import</span> <span class="string">&quot;[TOC]&quot;</span> &#123;cmd=<span class="string">&quot;toc&quot;</span> depthFrom=<span class="number">1</span> depthTo=<span class="number">6</span> orderedList=false&#125; --&gt;</span><br></pre></td></tr></table></figure>
-
-<p>接下来将光标移至第一行 添加：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">html:</span><br><span class="line">  	toc: true</span><br><span class="line">print_background: true  #有关主题设置</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p>最后 CTRL + s 保存 右边预览会生成侧边栏</p>
-
+        <p>markdown study doc</p>
+        
       
 
       
@@ -669,19 +308,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+        
       
 
       
@@ -733,7 +360,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2024 John Doe
+    		&copy; 2024 Aly
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
